@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,.4);
+    font-weight: 500;
+    transition: 0.5s;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+a:hover{
+    color: rgb(245 238 12);
+    
+}
+
+hr{
+    width: 15%;
+    height: 1px ;
+    background-color: rgba(0,0,0,.4);
+    opacity: 0.6;
+}
+nav{
+    display: flex;
+    gap: 425px;
+    padding:  10px 35px 0px;
+    align-items: center;
+}
+nav .logo img{
+    width: 50%;
+    border-radius: 50%;
+}
+nav .navbar ul{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    list-style: none;
+    font-size: 17px;
+}
+.video{
+    margin-top: 20px;
+}
+.video .img img{
+    display: flex;
+    margin: 0 auto;
+    height: 782px;
+    width: 96%;
+    border-radius: 20px;
+}
+.video .text p{
+    color:rgb(175, 68, 18) ;
+    font-weight: 400;
+
+}
+.video .text h2{
+    color: #fefefe;
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 0.3em;
+    letter-spacing: 1.74px;
+    margin-top: 40px;
+}
+
+.video .text{
+    position: relative;
+    top: -446px;
+    width: 50%;
+    left: 100px;
+
+}
+
+.video .text button{
+    background-color:rgb(245 238 12) ;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.video .text button:hover{
+    background-color:transparent ;
+    border: 2px solid rgb(245 238 12) ;
+    color: rgb(255, 255, 255);
+}
+.marque{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    color: rgba(116, 111, 111, 0.432);
+    position: relative;
+    top: -200px;
+    font-size: 15px;
+}
+.marque h2 span{
+    font-size: 14px;
+}
+.marque h2{
+    opacity: 0.6;
+    transition: 1s ease;
+
+}
+.marque h2:hover{
+    color:rgb(245 238 12) ;
+    cursor: pointer;
+    opacity: 1;
+}
+.product1{
+    display: flex;
+    margin-top: 20px;
+}
+
+.snip1361 {
+    font-family: 'Quattrocento', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #70798B4D;
+    border-radius: 30px;
+    margin: 0px 0px 0px 35px;
+    width: 386px;
+    color: #141414;
+    text-align: left;
+    line-height: 1.4em;
+    font-size: 16px;
+    height: 500px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+.snip1361 img{
+    width: 329px;
+    height: 380px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+  .snip1361:hover{
+    box-shadow:10px 0px 23px #70798B4D;
+  }
+  .snip1361 p {
+    padding: 10px 10px 0px 10px;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: justify;
+  }
+  .snip1361 h3 {
+    color: rgb(255, 251, 0);
+    padding: 0px 10px 0px 10px;
+    font-weight: ♣00;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Playfair ' ;
+  }
+  .snip1361 h4{
+    color: rgb(12, 35, 245);
+    padding: 10px 10px 0px 10px;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Playfair ' ;
+  }
+  .snip1361 h1{
+    position: relative;
+    top: 50px;
+    font-family: 'Playfair ' ;
+
+  }
+  .snip1361 figcaption {
+    position: absolute;
+    top: calc(87%);
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to bottom, #ffffff3b 0%, #d7d7d7 100%);;
+    padding: 0px 0px 0px 2px;
+    transition: 0.6s ease;
+  }
+  .snip1361:hover figcaption,
+  .snip1361.hover figcaption {
+    top: 20px;
+  }
+  
+
+
+
+.tab-contents .all{ 
+    display: inline;
+}
+.tab-contents {
+    list-style: none;
+    margin: 10px 0;
+    font-family: 'Shippori Antique B1', sans-serif;
+    position: relative;
+    top: -122px;
+    display: none;
+}
+.tab-contents.active-tab {
+    display: block;
+}
+@media (max-width: 430px) {
+    nav .logo{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto ;
+        justify-content: center;
+    }
+    nav .navbar{
+        display: none;
+    }
+    .video .img img{
+        height:100% ;
+        width: 96%;
+    }
+    .video .text p{
+        font-weight: 400;
+        font-size: 10px;    
+    }
+    .video .text h2{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    
+    .video .text{
+        position: relative;
+        top: -150px;
+        width: 50%;
+        left: 40px;
+    }
+    
+    .video .text button{
+        height: 30px;
+        width: 100px;
+       font-size: 10px;
+    }
+    hr{
+        display: none;
+    }
+    .marque{
+        display: inline;
+        text-align: center;
+        position: relative;
+        top: -90px;
+        font-size: 10px;
+    }
+    .product1{
+        display: inline;
+    }
+    .snip1361 {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid #70798B4D;
+        border-radius: 30px;
+        margin: 0px 0px 10px 9px;
+        width: 410px;
+        color: #141414;
+        text-align: left;
+        line-height: 1.4em;
+        font-size: 16px;
+        height: 500px;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    .snip1361 img{
+        width: 329px;
+        height: 380px;
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto ;
+    }
+    .tab-contents {
+        margin: 100px 0;
+       
+    }
+    
+    
+}
+@media (max-width: 428px){
+    .snip1361{
+        width: 410px;
+    }
+}
+@media (max-width: 414px){
+    .snip1361{
+        width: 392px;
+    }
+    .snip1361 p {
+        
+        font-size: 12px;
+        
+      }
+      .snip1361 h3 {
+     
+        font-size: 17px;
+        
+      }
+      .snip1361 h4{
+      
+        font-size: 17px;
+        
+      }
+}
+@media (max-width: 412px){
+    .snip1361{
+        width: 395px;
+    }
+}
+@media (max-width: 393px){
+    .snip1361{
+        width: 373px;
+    }
+}
+@media (max-width: 375px){
+    .snip1361{
+        width: 355px;
+    }
+}
+@media (max-width: 360px){
+    .snip1361{
+        width: 340px;
+    }
+}
+  
+  
+  
+ 
